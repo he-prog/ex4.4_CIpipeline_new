@@ -11,6 +11,6 @@ def test_add_one():
 def test_add_fail():
     assert add_func(5, 5) == 9
     
-    
+@pytest.mark.xfail    
 def test_add_fail2():
     assert add_func(5, 11) == 9
