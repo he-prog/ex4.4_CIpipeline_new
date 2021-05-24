@@ -1,6 +1,6 @@
   
 import pytest
-from my_source import add_func
+from my_source1 import add_func
 
 
 def test_add_one():
